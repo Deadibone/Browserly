@@ -10,9 +10,7 @@ class BrowserWindow(QMainWindow):
 
         self.setWindowTitle("Browserly")
         self.setGeometry(100, 100, 800, 600)
-        
-        icon = QIcon("C:/Users/ethan/Desktop/RELGO/Apps/Browserly-raw/icon.ico")
-        self.setWindowIcon(icon)
+
 
 
         self.tab_widget = QTabWidget()
